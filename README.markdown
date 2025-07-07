@@ -105,17 +105,7 @@ To run this project, ensure the following are installed and configured:
      ```bash
      curl -X POST "http://localhost:8000/chat" -H "Content-Type: application/json" -d '{"user_question": "How do I set up a project?", "source_filter": null, "conversation_history": null, "erase_conversation_history": false}'
      ```
-   - **Response**:
-     ```json
-     {
-       "answer": "Response based on retrieved documents",
-       "citations": [
-         {
-           "file_name": "doc1.pdf",
-           "file
 
-//   **Example Response**:
-    സ
 
    **Example Response**:
    ```json
